@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="XaxaClient — klient do Minecrafta z myślą o płynniejszej rozgrywce. Wybierz wersję Free, Premium lub Lifetime.">
+  <title>XaxaClient — graj płynniej</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="intro-active">
+  <div class="welcome" id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+    <div class="welcome-card glass">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <p class="eyebrow">MIŁO CIĘ WIDZIEĆ</p>
+      <h1 id="welcome-title">Witaj na stronie<br><span>XaxaClient</span></h1>
+      <p class="welcome-copy">Twoja gra. Twój rytm. Zaczynamy?</p>
+      <button class="button button-primary" id="enter-site" type="button">Siema <span aria-hidden="true">↗</span></button>
+    </div>
+  </div>
+
+  <div class="site" id="site" inert>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="XaxaClient — strona główna"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>xaxa<span class="brand-light">client</span></span></a>
+      <nav aria-label="Nawigacja"><a href="#about">O kliencie</a><a href="#plans">Cennik</a><a class="nav-download" href="#download">Download <span aria-hidden="true">↗</span></a></nav>
+    </header>
+
+    <main id="home">
+      <section class="hero page-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> CLIENT DO MINECRAFTA</p>
+          <h1>Więcej płynności.<br><span>Mniej rozpraszaczy.</span></h1>
+          <p class="hero-description">XaxaClient to klient do Minecrafta tworzony z myślą o FPS-ach i przyjemniejszej rozgrywce. Prosto, przejrzyście, po Twojemu.</p>
+          <a class="button button-glass" href="#download">Poznaj XaxaClient <span aria-hidden="true">↓</span></a>
+          <p class="hero-note"><span aria-hidden="true">✦</span> Lekki wygląd. Skupienie na grze.</p>
+        </div>
+        <div class="hero-visual" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="game-card glass"><div class="window-bar"><i></i><i></i><i></i><span>XAXACLIENT</span></div><div class="voxel"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="game-caption"><b>Twoja gra.</b><span>Na Twoich zasadach.</span></div></div><div class="float-chip chip-top">✦ &nbsp;Lekko i przejrzyście</div><div class="float-chip chip-bottom"><span class="status-dot"></span> Stworzony do rozgrywki</div></div>
+      </section>
+
+      <section class="about page-wrap" id="about">
+        <div class="section-heading"><p class="eyebrow">MNIEJ SZUMU, WIĘCEJ GRY</p><h2>Zaprojektowany z myślą o płynnej grze.</h2><p>XaxaClient stawia na komfort i wydajność. Rzeczywista liczba FPS zależy od komputera, ustawień i świata gry — nie ma jednej wartości dla każdego.</p></div>
+        <div class="fps-panel glass"><div class="fps-heading"><span>PRZYKŁADOWE PORÓWNANIE</span><span class="demo-tag">WIZUALIZACJA · NIE GWARANCJA</span></div><div class="fps-compare"><div class="fps-item"><span class="fps-label">Zwykły Minecraft</span><strong>100 <small>FPS</small> <span class="cross">×</span></strong><div class="fps-track"><i class="track-standard"></i></div></div><div class="fps-arrow" aria-hidden="true">→</div><div class="fps-item fps-highlight"><span class="fps-label">XaxaClient</span><strong>1500 <small>FPS</small> <span class="check">✓</span></strong><div class="fps-track"><i class="track-xaxa"></i></div></div></div><p class="fps-disclaimer">Liczby pokazują przykładowy scenariusz, a nie gwarantowany wynik. FPS zależą m.in. od podzespołów, wersji gry, ustawień i sytuacji w grze. Wyniki na tym samym sprzęcie mogą się różnić.</p></div>
+      </section>
+
+      <section class="plans page-wrap" id="plans">
+        <div class="section-heading"><p class="eyebrow">WYBIERZ SWOJĄ OPCJĘ</p><h2>Prosto. Bez niespodzianek.</h2><p>Zacznij za darmo albo wybierz dostęp Premium. W sprawie wersji płatnych napisz na PV: <strong>likeltc</strong>.</p></div>
+        <div class="plan-grid">
+          <article class="plan-card glass"><div class="plan-top"><span class="plan-name">Free</span><span class="plan-badge">NA START</span></div><p class="price">0 zł</p><p class="plan-description">Darmowy dostęp do XaxaClient.</p><a class="plan-link" href="#download">Pobierz za darmo <span>↗</span></a></article>
+          <article class="plan-card glass plan-featured"><div class="plan-top"><span class="plan-name">Premium</span><span class="plan-badge badge-purple">7 DNI</span></div><p class="price">20 zł <span>/ tydzień</span></p><p class="plan-description">Premium na tydzień. Napisz do nas na PV.</p><button class="button button-glass contact-button" type="button" data-plan="Premium — 1 tydzień, 20 zł">Napisz na PV <span>↗</span></button></article>
+          <article class="plan-card glass"><div class="plan-top"><span class="plan-name">Lifetime</span><span class="plan-badge badge-green">NA ZAWSZE</span></div><p class="price">50 zł</p><p class="plan-description">Dostęp Lifetime. Napisz do nas na PV.</p><button class="button button-glass contact-button" type="button" data-plan="Lifetime — 50 zł">Napisz na PV <span>↗</span></button></article>
+        </div>
+        <p class="contact-note" id="contact-note" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="download-section page-wrap" id="download"><div class="download-panel glass"><div><p class="eyebrow"><span class="status-dot"></span> GOTOWY, BY ZAGRAĆ?</p><h2>Pobierz XaxaClient.</h2><p>Aktualne wydanie znajdziesz na oficjalnym GitHubie.</p></div><div class="download-action"><a class="button button-primary" href="https://github.com/kobywatel/XaxaClient/releases/tag/Beta" target="_blank" rel="noopener noreferrer">Download <span>↗</span></a><a class="release-link" href="https://github.com/kobywatel/XaxaClient/releases/tag/Beta" target="_blank" rel="noopener noreferrer">https://github.com/kobywatel/XaxaClient/releases/tag/Beta</a></div></div></section>
+    </main>
+    <footer class="footer page-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>xaxa<span class="brand-light">client</span></span></a><span>Stworzony dla przyjemniejszej rozgrywki.</span><span>© 2026 XaxaClient</span></footer>
+  </div>
+</body>
+</html>
