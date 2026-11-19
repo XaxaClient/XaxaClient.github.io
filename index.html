@@ -3,109 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090a0f">
-  <meta name="description" content="XaxaClient — nowoczesny, lekki i płynny client do Minecrafta.">
-  <title>XaxaClient</title>
+  <meta name="theme-color" content="#071329">
+  <meta name="description" content="XaxaClient — nowoczesny client do Minecrafta. Dołącz do gry w niebieskim stylu.">
+  <title>XaxaClient — Twój świat. Twoja rozgrywka.</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
+  <div class="background-glow glow-left" aria-hidden="true"></div>
+  <div class="background-glow glow-right" aria-hidden="true"></div>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="XaxaClient — początek strony">
-      <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      <span>xaxa<span>client</span></span>
+    <a class="brand" href="#home" aria-label="XaxaClient — strona główna">
+      <img src="logo.svg" alt="" class="brand-logo">
+      <span>xaxa<span class="brand-light">client</span></span>
     </a>
-    <nav aria-label="Główna nawigacja">
+    <nav aria-label="Nawigacja główna">
       <a href="#features">Funkcje</a>
-      <a href="#download" class="nav-cta">Pobierz <span aria-hidden="true">↗</span></a>
+      <a href="#download" class="nav-button">Pobierz <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
-
-  <main id="top">
+  <main id="home">
     <section class="hero page-shell">
       <div class="hero-copy">
-        <p class="kicker"><span></span> Minecraft, po prostu lepiej</p>
-        <h1>Twój świat.<br><em>Twoja rozgrywka.</em></h1>
-        <p class="hero-lead">Lekki, przejrzysty i dopracowany client stworzony po to, aby oddać Ci pełną kontrolę nad grą.</p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> TWÓJ NOWY SPOSÓB NA MINECRAFTA</p>
+        <h1>Twój świat.<br><span>Twoja rozgrywka.</span></h1>
+        <p class="hero-description">Lekki, przejrzysty i dopracowany client stworzony po to, aby oddać Ci pełną kontrolę nad grą.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#download">Zacznij grać <span aria-hidden="true">↓</span></a>
-          <a class="text-button" href="#features">Poznaj XaxaClient <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#features">Poznaj XaxaClient <span aria-hidden="true">→</span></a>
         </div>
+        <div class="hero-proof"><span class="proof-stars" aria-hidden="true">✦ ✦ ✦</span><span>Prosto. Płynnie. Po Twojemu.</span></div>
       </div>
-
-      <div class="hero-art" aria-label="Podgląd interfejsu XaxaClient">
-        <div class="glow"></div>
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="game-window">
-          <div class="window-head">
-            <div class="window-dots"><i></i><i></i><i></i></div>
-            <span>WIDOK GRY</span>
-            <div class="window-status"><i></i> GOTOWY</div>
-          </div>
-          <div class="game-preview">
-            <div class="sky"></div>
-            <div class="sun"></div>
-            <div class="cloud cloud-a"></div>
-            <div class="cloud cloud-b"></div>
-            <div class="terrain"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            <div class="crosshair"><i></i><b></b></div>
-            <div class="hotbar">
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-          </div>
-        </div>
-        <div class="float-card float-top"><span>✦</span><div><small>STYL</small><strong>Czysty interfejs</strong></div></div>
-        <div class="float-card float-bottom"><i></i><div><small>STATUS</small><strong>Gotowy do gry</strong></div></div>
+      <div class="hero-visual" aria-label="Logo XaxaClient w niebieskiej oprawie">
+        <div class="visual-ring ring-one"></div><div class="visual-ring ring-two"></div>
+        <div class="visual-glow"></div>
+        <div class="logo-tile"><span class="tile-label"><i></i> XAXACLIENT</span><img src="logo.svg" alt="Logo XaxaClient"><span class="tile-caption">GOTOWY DO GRY <b>✦</b></span></div>
+        <div class="float-chip chip-top"><span class="chip-icon">✧</span><span><small>STWORZONY DLA</small><strong>Twojej rozgrywki</strong></span></div>
+        <div class="float-chip chip-bottom"><span class="live-dot"></span><span><small>TWÓJ ŚWIAT</small><strong>Czeka na Ciebie</strong></span></div>
       </div>
+      <a class="scroll-hint" href="#features" aria-label="Przewiń do funkcji"><span></span> PRZEWIŃ NIŻEJ</a>
     </section>
-
     <section class="features page-shell" id="features">
-      <div class="section-intro">
-        <p class="kicker"><span></span> Po co XaxaClient</p>
-        <h2>Wszystko, czego potrzebujesz.<br><em>Niczego więcej.</em></h2>
-      </div>
+      <div class="section-heading"><p class="eyebrow"><span class="eyebrow-dot"></span> PO CO XAXACLIENT</p><h2>Wszystko, czego potrzebujesz.<br><span>Niczego więcej.</span></h2><p>Skup się na przygodzie. Reszta ma po prostu działać.</p></div>
       <div class="feature-grid">
-        <article>
-          <div class="feature-number">01</div>
-          <div class="feature-icon violet">⌁</div>
-          <h3>Skupienie na grze</h3>
-          <p>Intuicyjny interfejs nie odciąga uwagi i pozwala być tam, gdzie dzieje się najwięcej.</p>
-        </article>
-        <article>
-          <div class="feature-number">02</div>
-          <div class="feature-icon blue">◈</div>
-          <h3>Prosta konfiguracja</h3>
-          <p>Dopasuj elementy do siebie i ruszaj w drogę bez błądzenia po skomplikowanych menu.</p>
-        </article>
-        <article>
-          <div class="feature-number">03</div>
-          <div class="feature-icon green">✦</div>
-          <h3>Lekka forma</h3>
-          <p>Przejrzysty wygląd i nowoczesny styl — bez niepotrzebnych dodatków.</p>
-        </article>
+        <article class="feature-card"><span class="feature-number">01</span><span class="feature-icon icon-blue">⌁</span><h3>Skupienie na grze</h3><p>Przejrzysty interfejs nie odciąga uwagi i pozwala skupić się na tym, co najważniejsze.</p></article>
+        <article class="feature-card"><span class="feature-number">02</span><span class="feature-icon icon-cyan">◈</span><h3>Prosto i wygodnie</h3><p>Wszystko pod ręką — bez błądzenia po skomplikowanych menu i zbędnych ustawień.</p></article>
+        <article class="feature-card"><span class="feature-number">03</span><span class="feature-icon icon-indigo">✦</span><h3>Styl XaxaClient</h3><p>Wyrazisty, niebieski wygląd zaprojektowany z myślą o Twojej rozgrywce.</p></article>
       </div>
     </section>
-
     <section class="download page-shell" id="download">
-      <div class="download-card">
-        <div class="download-orb" aria-hidden="true"></div>
-        <div>
-          <p class="kicker"><span></span> Gotowy do gry</p>
-          <h2>Wejdź do świata XaxaClient.</h2>
-          <p>Pobierz najnowszą wersję i zacznij grać we własnym stylu.</p>
-        </div>
-        <a class="button button-light" href="https://github.com/kobywatel/XaxaClient/releases/tag/Beta">Pobierz teraz <span aria-hidden="true">↗</span></a>
-      </div>
+      <div class="download-card"><div class="download-decoration" aria-hidden="true"></div><div class="download-copy"><p class="eyebrow"><span class="eyebrow-dot"></span> TWOJA PRZYGODA ZACZYNA SIĘ TUTAJ</p><h2>Wskakuj do gry.</h2><p>Pobierz XaxaClient i ruszaj po swoje kolejne wspomnienia.</p></div><a class="button button-download" href="https://github.com/kobywatel/XaxaClient/releases/tag/Beta" target="_blank" rel="noopener noreferrer">Pobierz XaxaClient <span aria-hidden="true">↗</span></a></div>
     </section>
   </main>
-
-  <footer class="page-shell">
-    <a class="brand footer-brand" href="#top">
-      <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      <span>xaxa<span>client</span></span>
-    </a>
-    <p>© 2026 XaxaClient</p>
-  </footer>
+  <footer class="page-shell footer"><a class="brand" href="#home" aria-label="Wróć na początek"><img src="logo.svg" alt="" class="brand-logo"><span>xaxa<span class="brand-light">client</span></span></a><p>© 2026 XaxaClient</p><a class="footer-top" href="#home">Na górę ↑</a></footer>
 </body>
 </html>
